@@ -1,0 +1,89 @@
+/*Style sheet*/
+body,html{
+    background: rgb(197, 229, 241);
+    font-family: 'Charm', cursive;
+}
+.navbar{
+    background: deepskyblue;
+    width: 100%;
+    height: 90px;
+}
+.logo1 ul{
+    align-items: initial;
+    display: flex;
+    flex-flow: row;
+    margin:0;
+    padding: 0;
+}
+/*Backgroud for nav bar*/
+#startupNavbar{
+    background: deepskyblue;
+}
+
+#navelements li{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-size: 30px;
+}
+#navelements li:hover{
+    font-size: 35px;
+}
+h1{
+    color:brown;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+.col1 p{
+    text-align: justify;
+}
+.col2{
+    font-size: 2rem;
+}
+.container ul{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+}
+.navbar li{
+    list-style: none;
+}
+.container li{
+    list-style: none;
+    text-decoration: none;
+    padding:0;
+    margin: 0;
+}
+.img2{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#projects{
+    margin-top: 3rem;
+}
+.img1{
+    width: 8em;
+    height: 8em;
+}
+/*Resizing and flip the image*/
+.img1:hover{
+    width: 15em;
+    height: 15em;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#comment{
+    color: gray;
+}
