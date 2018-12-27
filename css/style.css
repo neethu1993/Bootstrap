@@ -66,6 +66,10 @@ h2{
     padding:0;
     margin: 0;
 }
+#car-build{
+    width:1280px;
+     height:720px;
+}
 .img2{
     width: 2.5rem;
     height: 2.5rem;
@@ -99,4 +103,13 @@ h2{
     height:100%;
     width:100%;
     position:absolute;
+}
+#foot2{
+    color:black;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+iframe{
+    border: 0;
+    frameborder:0;
 }
