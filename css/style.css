@@ -6,7 +6,7 @@ body,html{
 .navbar{
     background: deepskyblue;
     width: 100%;
-    height: 90px;
+    height: 8rem;
 }
 .logo1 ul{
     align-items: initial;
@@ -108,3 +108,12 @@ h2{
     .col3{
         padding: 0;
     }
+    #contact{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background: lightblue;
+    }
+#car-pic{
+    width: 100%;
+    height: 100%;
+}
